@@ -1,186 +1,61 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>John Cristofer Serrano Cordonez - Desarrollador de Software</title>
-  <link rel="stylesheet" href="styles.css">
-  <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f9;
-      color: #333;
-    }
-    header {
-      background-color: #34495e;
-      padding: 20px;
-      text-align: center;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    }
-    header h1 {
-      color: #ecf0f1;
-      font-size: 3em;
-      margin: 0;
-    }
-    header h2 {
-      color: #95a5a6;
-      font-size: 1.2em;
-      margin-top: 5px;
-    }
-    .container {
-      max-width: 1200px;
-      margin: 20px auto;
-      padding: 20px;
-      background-color: #ffffff;
-      border-radius: 8px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    }
-    .section {
-      margin-bottom: 40px;
-    }
-    .section h3 {
-      color: #34495e;
-      font-size: 2em;
-      margin-bottom: 15px;
-    }
-    .section p {
-      font-size: 1.1em;
-      line-height: 1.6;
-      color: #555;
-    }
-    .projects {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 20px;
-    }
-    .project-card {
-      background-color: #ecf0f1;
-      border-radius: 8px;
-      padding: 15px;
-      text-align: center;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      transition: transform 0.3s ease;
-    }
-    .project-card:hover {
-      transform: translateY(-10px);
-    }
-    .project-card h4 {
-      font-size: 1.5em;
-      color: #34495e;
-    }
-    .project-card a {
-      color: #2980b9;
-      font-size: 1.1em;
-      text-decoration: none;
-      margin-top: 10px;
-      display: inline-block;
-    }
-    .project-card a:hover {
-      text-decoration: underline;
-    }
-    footer {
-      text-align: center;
-      background-color: #34495e;
-      padding: 20px;
-      position: absolute;
-      width: 100%;
-      bottom: 0;
-    }
-    footer p {
-      color: #ecf0f1;
-      font-size: 1em;
-    }
-    footer a {
-      color: #ecf0f1;
-      font-weight: bold;
-      text-decoration: none;
-    }
-    footer a:hover {
-      color: #f39c12;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DarkorZ</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-  <header>
-    <h1>John Cristofer Serrano Cordonez</h1>
-    <h2>Desarrollador de Software | TI | AWS Cloud Computing</h2>
-  </header>
-
-  <div class="container">
-    <!-- Objetivo Profesional -->
-    <section class="section" id="objetivo">
-      <h3>Objetivo Profesional</h3>
-      <p>
-        Desarrollar y fortalecer mis habilidades en la creación y administración de sistemas TI, con enfoque en microservicios, Python y computación en la nube. Ampliar mi experiencia en mantenimiento técnico, infraestructura tecnológica y optimización de servicios empresariales.
-        Actualmente, me estoy preparando en Python con Inteligencia Artificial, AWS Cloud Computing y Docker Compose para desarrollar aplicaciones escalables, integrando soluciones basadas en contenedores y automatización en la nube.
-      </p>
+    <header>
+        <h1>DarkorZ</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#presentacion">Presentación</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#certificados">Certificados</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <div class="perfil">
+            <img src="perfil.jpg" alt="Foto de perfil">
+            <p>¡Hola! Soy [Tu Nombre], un apasionado desarrollador web con experiencia en crear soluciones digitales impactantes.</p>
+        </div>
     </section>
-
-    <!-- Educación -->
-    <section class="section" id="educacion">
-      <h3>Educación</h3>
-      <p><strong>ING. CIENCIAS DE LA COMPUTACION</strong><br>
-        Universidad Politécnica Salesiana 2022–2025 (en curso - Séptimo Semestre)
-      </p>
-      <p><strong>Bachiller en Informática</strong><br>
-        Unidad Educativa “Don Bosco” La Tola 2016 – 2020
-      </p>
+    
+    <section id="presentacion">
+        <h2>Presentación</h2>
+        <img src="foto_presentacion.jpg" alt="Tu foto">
+        <p><strong>Nombre:</strong> [Tu Nombre]</p>
+        <p><strong>Edad:</strong> [Tu Edad]</p>
+        <p><strong>Lenguajes:</strong> [Tus lenguajes de programación]</p>
+        <p><strong>Educación:</strong> [Tu educación]</p>
     </section>
-
-    <!-- Habilidades -->
-    <section class="section" id="habilidades">
-      <h3>Habilidades</h3>
-      <ul>
-        <li>Gestión y mantenimiento de hardware informático.</li>
-        <li>Programación en Python, C++, Java y JavaScript.</li>
-        <li>Desarrollo de microservicios y aplicaciones web.</li>
-        <li>Desarrollo y automatización de infraestructuras TI con AWS y Python (en formación).</li>
-      </ul>
+    
+    <section id="experiencia">
+        <h2>Experiencia</h2>
+        <ul>
+            <li>[Posición en empresa] - [Año]</li>
+            <li>[Posición en empresa] - [Año]</li>
+        </ul>
     </section>
-
-    <!-- Experiencia Laboral -->
-    <section class="section" id="experiencia">
-      <h3>Experiencia Laboral</h3>
-      <h4>CONSULTOR TÉCNICO ESPECIALIZADO</h4>
-      <p><strong>C&C Comercialización</strong> / 2022 – Actualidad</p>
-      <ul>
-        <li>Responsable de la resolución de problemas en hardware y software para asegurar el funcionamiento continuo de la empresa.</li>
-        <li>Asesoría y soporte en el uso y configuración del sistema contable de facturación e inventario.</li>
-        <li>Optimización y mantenimiento de servicios informáticos, incluyendo la implementación de software necesario y actualizaciones de hardware prácticas.</li>
-      </ul>
-      
-      <h4>PRACTICAS EN AREA DE SISTEMAS (Formación Escolar)</h4>
-      <p><strong>ADMINISTRACION ZONAL QUITUMBE</strong> / 2017</p>
-      <ul>
-        <li>Asistencia técnica, resolución de problemas en equipos informáticos.</li>
-        <li>Asesoría en el correcto uso y manipulación de una red de área local de trabajo.</li>
-        <li>Mantenimiento preventivo de servidores de redes y equipos relacionados.</li>
-      </ul>
-      
-      <h4>GESTOR DE COMPONENTES TECNOLOGICOS</h4>
-      <p><strong>NEGOCIO INDEPENDIENTE DE VENTA Y ENSAMBLAJE DE PC</strong></p>
-      <ul>
-        <li>Ensamblaje, armado y mantenimiento preventivo de PC y laptops, incluyendo instalación y configuración de programas.</li>
-        <li>Diagnóstico y solución de problemas técnicos en equipos informáticos, tanto de hardware como de software.</li>
-        <li>Investigación y venta de componentes tecnológicos, con énfasis en la compatibilidad y el rendimiento de equipos personalizados.</li>
-      </ul>
+    
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <p>Lista de proyectos en los que has trabajado.</p>
     </section>
-
-    <!-- Contacto -->
-    <section class="section" id="contacto">
-      <h3>Contacto</h3>
-      <p>Teléfono: <strong>096 362 8338</strong></p>
-      <p>Correo electrónico: <strong><a href="mailto:jcristofer13@gmail.com">jcristofer13@gmail.com</a></strong></p>
-      <p>GitHub: <strong><a href="https://github.com/DarkorZ" target="_blank">https://github.com/DarkorZ</a></strong></p>
+    
+    <section id="certificados">
+        <h2>Certificados</h2>
+        <p>Aquí puedes agregar tus certificados obtenidos.</p>
     </section>
-  </div>
-
-  <footer>
-    <p>&copy; 2025 John Cristofer Serrano Cordonez | <a href="https://github.com/DarkorZ" target="_blank">GitHub</a></p>
-  </footer>
-
+    
+    <footer>
+        <p>&copy; 2025 DarkorZ - Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
